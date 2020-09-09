@@ -16,6 +16,7 @@
         android:src="@drawable/notes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:onClick="handleImageClick"
         />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -66,7 +67,7 @@
 
     <Button
         android:id="@+id/button8"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@android:style/Widget.DeviceDefault.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
@@ -76,7 +77,6 @@
         android:layout_marginRight="163dp"
         android:layout_marginBottom="456dp"
         android:text="Change Image"
-        android:onClick="handleImageClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
